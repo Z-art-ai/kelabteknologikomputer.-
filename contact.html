@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Kelab Teknologi Komputer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Bar Navigasi Lengkap (5 Halaman) -->
+    <nav class="menu-navigasi">
+        <div class="logo-brand">⚡ KELAB TEKNOLOGI KOMPUTER</div>
+        <div class="nav-links">
+            <a href="index.html" class="kotak-link">HOME</a>
+            <a href="about.html" class="kotak-link">ABOUT</a>
+            <a href="register.html" class="kotak-link">REGISTER</a>
+            <a href="service.html" class="kotak-link">SERVICE</a>
+            <a href="contact.html" class="kotak-link">CONTACT</a>
+        </div>
+    </nav>
+
+    <!-- Banner Bergerak -->
+    <div class="banner-bergerak-container">
+        <div class="banner-bergerak-teks">
+            <span>HUBUNGI KELAB TEKNOLOGI KOMPUTER!</span> &nbsp;&bull;&nbsp; 
+            Sebarang pertanyaan keahlian, bengkel perkakasan, atau khidmat sokongan IT boleh terus diajukan kepada kami. &nbsp;&bull;&nbsp; 
+            <span>TALIAN PANTAS &amp; MEDIA SOSIAL RASMI AKTIF!</span>
+        </div>
+    </div>
+
+    <!-- Kandungan Utama Halaman Contact -->
+    <main class="container">
+        <div class="site-header" style="margin-top: 25px; margin-bottom: 25px;">
+            <h2 id="tajuk-khas" style="font-size: 1.85rem;">Hubungi Kami (Contact)</h2>
+            <p>Jangan segan untuk berhubung dengan pihak pengurusan Kelab Teknologi Komputer untuk sebarang pertanyaan atau bantuan teknikal.</p>
+        </div>
+
+        <!-- Bahagian 1: Kad Maklumat Perhubungan Utama -->
+        <section class="contact-grid">
+            <!-- Kad Telefon / WhatsApp -->
+            <div class="kad-contact">
+                <span class="badge-contact">TALIAN / WHATSAPP</span>
+                <h3>Nombor Telefon</h3>
+                <p class="info-utama-contact">011-7248-6762</p>
+                <p class="desc-contact">Hubungi atau hantar mesej WhatsApp untuk maklum balas pantas berkaitan kelab &amp; servis PC.</p>
+                <a href="https://wa.me/601172486762" target="_blank" class="btn-contact btn-merah">Chat di WhatsApp</a>
+            </div>
+
+            <!-- Kad Instagram -->
+            <div class="kad-contact">
+                <span class="badge-contact">MEDIA SOSIAL</span>
+                <h3>Instagram Rasmi</h3>
+                <p class="info-utama-contact">@usrzik_</p>
+                <p class="desc-contact">Ikuti perkembangan terkini aktiviti bengkel, pengumuman ahli baharu, dan perkongsian teknologi.</p>
+                <a href="https://www.instagram.com/usrzik_/" target="_blank" class="btn-contact btn-biru">Buka Instagram</a>
+            </div>
+
+            <!-- Kad Lokasi -->
+            <div class="kad-contact">
+                <span class="badge-contact">LOKASI KAMI</span>
+                <h3>Alamat &amp; Kawasan</h3>
+                <p class="info-utama-contact">Temerloh, Pahang</p>
+                <p class="desc-contact">Pusat operasi &amp; khidmat nasihat teknikal bagi pelajar serta komuniti sekitar Temerloh, Pahang.</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=Temerloh,+Pahang" target="_blank" class="btn-contact btn-kuning">Lihat di Peta</a>
+            </div>
+        </section>
+
+        <!-- Bahagian 2: Waktu Operasi & Borang Pertanyaan Pantas -->
+        <section class="contact-bawah-grid">
+            <!-- Kotak Waktu Urusan -->
+            <div class="kotak-info-tambahan">
+                <h3>Waktu Urusan &amp; Pertanyaan</h3>
+                <ul class="senarai-waktu">
+                    <li><strong>Isnin – Khamis:</strong> 9:00 Pagi – 5:00 Petang</li>
+                    <li><strong>Jumaat:</strong> 9:00 Pagi – 12:15 Tengah Hari / 2:45 Petang – 5:00 Petang</li>
+                    <li><strong>Sabtu &amp; Ahad:</strong> Pertanyaan melalui WhatsApp / Instagram sahaja</li>
+                </ul>
+                <div class="nota-pantas-contact">
+                    <strong>Tip Pantas:</strong> Untuk urusan pendaftaran ahli baharu secara terus, sila ke halaman <a href="register.html">Register</a>.
+                </div>
+            </div>
+
+            <!-- Borang Hantar Mesej Ringkas -->
+            <div class="kotak-borang-contact">
+                <h3>Hantar Mesej Terus</h3>
+                <form action="#" method="post" class="borang-contact">
+                    <label for="nama-pengirim">Nama Penuh Anda</label>
+                    <input type="text" id="nama-pengirim" name="nama" placeholder="Contoh: Muhammad Adam" required>
+
+                    <label for="telefon-pengirim">No. Telefon / WhatsApp</label>
+                    <input type="tel" id="telefon-pengirim" name="telefon" placeholder="Contoh: 012-3456789" required>
+
+                    <label for="subjek-mesej">Tujuan Pertanyaan</label>
+                    <select id="subjek-mesej" name="subjek">
+                        <option value="keahlian">Pertanyaan Keahlian Kelab</option>
+                        <option value="servis">Tempahan Baik Pulih / Servis PC</option>
+                        <option value="bengkel">Info Bengkel &amp; Aktiviti</option>
+                        <option value="lain">Lain-lain Pertanyaan</option>
+                    </select>
+
+                    <label for="isi-mesej">Mesej Anda</label>
+                    <textarea id="isi-mesej" name="mesej" rows="4" placeholder="Tulis pertanyaan atau maklumat lanjut di sini..." required></textarea>
+
+                    <button type="submit" class="btn-hantar-contact">Hantar Pertanyaan</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
